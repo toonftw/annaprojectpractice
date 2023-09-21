@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Meeting Calendar</title>
+    <style>
+
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5f6063;
+            font-size: large;
+        }
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #000000;
+        }
+
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-gap: 5px;}
+
+        .day {background-color: #ffffff;
+              border: 2px solid #000000;
+              padding: 20px;
+            font-size: large;}
+
+
+        .time {background-color: #ffffff;
+            border: 2px solid #ddd;
+            padding: 20px;
+            text-align: left; 
+            font-size: large;}
+
+            #TOD {margin-left: -10px;}
+span {
+    margin-left: 10px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scheduled Clientele Meetings</h1>
+    </header>
+    <a href="Homepage.html">Back</a>
+    <div class="container">
+        <div class="calendar">
+
+
+            <div class="day">Client Name</div>
+            <div class="day">Freddy Fazbear</div>
+            <div class="day">Sora</div>
+            <div class="day">Peter B. Parker</div>
+            <div class="day">Sonic The Hedgehog</div>
+            <div class="day">Kuromi</div>
+            <div class="day">Busta Rhymes</div>
+            <div class="day">Chad D. Cooper</div>
+
+            <div class="day">Date</div>
+            <div class="day">Sunday</div>
+            <div class="day">Monday</div>
+            <div class="day">Tuesday</div>
+            <div class="day">Wednesday</div>
+            <div class="day">Thursday</div>
+            <div class="day">Friday</div>
+            <div class="day">Saturday</div>
+
+
+
+
+            <div class="time"><span>Time</span></div>
+            <div class="time">7:00AM</div>
+            <div class="time">9:00AM</div>
+            <div class="time">11:00AM</div>
+            <div class="time">11:00AM</div>
+            <div class="time">12:00PM</div>
+            <div class="time">8:00AM</div>
+            <div class="time">7:00AM</div>
+
+
+        </div>
+    </div>
+</body>
+</html>
